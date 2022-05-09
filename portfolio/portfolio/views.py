@@ -1,6 +1,6 @@
 from django.http import HttpResponse
-
+from django.shortcuts import render
 
 def about(request):
-    return HttpResponse("this is our about page!!!")
+    return render(request,'index.html')
     
