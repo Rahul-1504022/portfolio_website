@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.about),
     path('about/',views.about),
-    path('portfolio/',views.portfolio),
+    path('portfolio_class/',views.portfolio_class),
+    path('portfolio_job/',views.portfolio_job),
 ]
